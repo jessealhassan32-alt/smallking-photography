@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Small King Photography</title>
+  <meta name="description" content="Small King Photography creates professional portraits, product photography, event photography and visual stories.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #090909; --card: #141414; --accent: #d7b98e; --accent-light: #ead5b4; --text: #f5f3ef; --muted: #99958e; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; line-height: 1.6; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+    .hero { min-height: 80vh; display: flex; flex-direction: column; justify-content: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    .hero h1 { font-size: 4rem; line-height: 1.1; margin-bottom: 20px; }
+    .hero h1 em { color: var(--accent-light); font-style: italic; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; margin-top: 30px; }
+    .card { background: var(--card); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; overflow: hidden; padding: 16px; }
+    .card img { width: 100%; height: 280px; object-fit: cover; border-radius: 8px; }
+    .btn { display: inline-block; background: var(--accent); color: #111; padding: 12px 24px; border-radius: 30px; text-decoration: none; font-weight: 600; margin-top: 20px; }
+    .contact-box { background: var(--card); border: 1px solid rgba(255,255,255,0.1); padding: 40px; border-radius: 20px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+  <div class="container hero">
+    <div style="color:var(--accent);letter-spacing:3px;font-size:12px;margin-bottom:16px;">SMALL KING PHOTOGRAPHY</div>
+    <h1>YOUR STORY. <em>FRAMED.</em></h1>
+    <p style="max-width:600px;color:var(--muted);font-size:1.1rem;">Professional photography for people, brands, products and moments worth remembering. Clean visuals. Natural emotion. Timeless frames.</p>
+    <div><a href="#contact" class="btn">Book a Shoot</a></div>
+  </div>
+  <div class="container">
+    <h2>Selected Work</h2>
+    <div class="grid">
+      <div class="card">
+            <img src="/src/assets/images/product-photography.jpg" alt="Details Matter" loading="lazy">
+            <div style="margin-top:12px;">
+              <small style="color:var(--accent);text-transform:uppercase;">Product</small>
+              <h3 style="margin-top:4px;">Details Matter</h3>
+            </div>
+          </div><div class="card">
+            <img src="/src/assets/images/cinematic-hero-portrait.jpg" alt="Silhouette & Shadow" loading="lazy">
+            <div style="margin-top:12px;">
+              <small style="color:var(--accent);text-transform:uppercase;">Portrait</small>
+              <h3 style="margin-top:4px;">Silhouette & Shadow</h3>
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="container" style="margin-top:40px;">
+    <h2>Session Packages (Naira)</h2>
+    <div class="grid">
+      <div class="card">
+            <h3 style="color:var(--accent-light);">The Signature Portrait</h3>
+            <p style="font-size:1.5rem;font-weight:600;margin:10px 0;color:var(--text);">₦3,000</p>
+            <p style="color:var(--muted);font-size:0.9rem;">For individuals, creatives & executive personal branding · 90 Minutes</p>
+            <ul style="margin-top:12px;padding-left:18px;color:var(--text);font-size:0.85rem;">
+              <li>20 high-resolution editorial retouched images</li><li>Up to 2 outfit changes & backdrops</li><li>Private password-protected digital gallery</li><li>Commercial & social media license included</li><li>4 business days digital delivery</li>
+            </ul>
+          </div><div class="card">
+            <h3 style="color:var(--accent-light);">Brand & Commercial Visuals</h3>
+            <p style="font-size:1.5rem;font-weight:600;margin:10px 0;color:var(--text);">₦20,000</p>
+            <p style="color:var(--muted);font-size:0.9rem;">For product lines, fashion lookbooks & digital marketing campaigns · Half-Day Session (4 hrs)</p>
+            <ul style="margin-top:12px;padding-left:18px;color:var(--text);font-size:0.85rem;">
+              <li>50+ curated & color-graded campaign assets</li><li>Creative art direction & moodboard consultation</li><li>Product styling & environmental props</li><li>Social media formats (1:1, 4:5, 9:16 vertical cuts)</li><li>Priority 72-hour turnaround</li>
+            </ul>
+          </div><div class="card">
+            <h3 style="color:var(--accent-light);">Events & Narrative</h3>
+            <p style="font-size:1.5rem;font-weight:600;margin:10px 0;color:var(--text);">₦40,000</p>
+            <p style="color:var(--muted);font-size:0.9rem;">For weddings, galas, cultural celebrations & brand launches · Full-Day Coverage (8 hrs)</p>
+            <ul style="margin-top:12px;padding-left:18px;color:var(--text);font-size:0.85rem;">
+              <li>Comprehensive documentary event coverage</li><li>350+ fully color-graded images</li><li>24-hour sneak peek preview (15 photos)</li><li>High-resolution print archive + online portal</li><li>Dedicated primary photographer & assistant</li>
+            </ul>
+          </div>
+    </div>
+  </div>
+  <div class="container contact-box" id="contact">
+    <h2>Let's create something together.</h2>
+    <p style="margin: 16px 0; color:var(--muted)">Email: <a href="mailto:aliyuidris6505@gmail.com" style="color:var(--accent)">aliyuidris6505@gmail.com</a></p>
+    <p style="margin: 8px 0; color:var(--muted)">Phone: +234901 622 6828</p>
+    <p style="margin: 8px 0; color:var(--muted)">Location: Hotoro ring road, Kwanar mai Allo, Yandodo plaza, Shop 24</p>
+    <p style="margin: 8px 0; color:var(--muted)">Instagram: @smallkingphotography001</p>
+  </div>
+</body>
+</html>
